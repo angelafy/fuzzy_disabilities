@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load hasil fuzzy inference
-df = pd.read_csv('D:/Tubes AI/stabilitas_output.csv')
+df = pd.read_csv('stabilitas_output.csv')
 
 st.title("Visualisasi Fuzzy Logic untuk Stabilitas Kursi Roda")
 

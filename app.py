@@ -1,8 +1,8 @@
 import pandas as pd
 
 # File input dan output
-INPUT_PATH = 'D:/Tubes AI/data.csv'
-OUTPUT_PATH = 'D:/Tubes AI/normalized_data.csv'
+INPUT_PATH = 'data.csv'
+OUTPUT_PATH = 'normalized_data.csv'
 
 # Kolom yang diperlukan
 needed_cols = ['beban_roda_depan(%)', 'percepatan_lateral(m/s)', 'percepatan_aksial(m/s)', 'sudut_kemiringan_bt(rad)']

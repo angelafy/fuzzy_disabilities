@@ -4,7 +4,7 @@ import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
 # Load data yang sudah dinormalisasi
-df = pd.read_csv('D:/Tubes AI/normalized_data.csv')
+df = pd.read_csv('normalized_data.csv')
 
 # Definisi variabel fuzzy
 beban = ctrl.Antecedent(np.arange(0, 1.01, 0.01), 'beban')

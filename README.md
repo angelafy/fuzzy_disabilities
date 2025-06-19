@@ -38,13 +38,13 @@ Proyek ini mengimplementasikan sistem inferensi fuzzy untuk menentukan tingkat k
 ### Langkah Instalasi
 
 1. **Clone repository**
-   \`\`\`bash
-   git clone https://github.com/username/fuzzy-wheelchair-stability.git
+   ```bash
+   git clone https://github.com/angelafy/fuzzy_disabilities.git
    cd fuzzy-wheelchair-stability
-   \`\`\`
+   ```
 
 2. **Buat virtual environment (opsional tapi direkomendasikan)**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    
    # Windows
@@ -52,38 +52,38 @@ Proyek ini mengimplementasikan sistem inferensi fuzzy untuk menentukan tingkat k
    
    # macOS/Linux
    source venv/bin/activate
-   \`\`\`
+   ```
 
 3. **Install dependencies**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ## 🚀 Cara Penggunaan
 
 ### 1. Preprocessing Data
 Jalankan script untuk membersihkan dan menormalisasi data:
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
 
 ### 2. Analisis Fuzzy Logic
 Eksekusi sistem inferensi fuzzy:
-\`\`\`bash
+```bash
 python fuzzy_stabilitas.py
-\`\`\`
+```
 
 ### 3. Dashboard Visualisasi
 Jalankan aplikasi web interaktif:
-\`\`\`bash
+```bash
 streamlit run visualization.py
-\`\`\`
+```
 
 Buka browser dan akses `http://localhost:8501` untuk melihat dashboard.
 
 ## 📁 Struktur File
 
-\`\`\`
+```
 fuzzy-wheelchair-stability/
 │
 ├── app.py                    # Script preprocessing data
@@ -94,7 +94,7 @@ fuzzy-wheelchair-stability/
 ├── stabilitas_output.csv     # Hasil analisis fuzzy
 ├── requirements.txt          # Dependencies Python
 └── README.md                # Dokumentasi proyek
-\`\`\`
+```
 
 ## 🧮 Metodologi Fuzzy Logic
 
@@ -116,7 +116,7 @@ fuzzy-wheelchair-stability/
 
 ## 📊 Contoh Output
 
-\`\`\`
+```
 Input:
 - Beban Roda Depan: 0.75
 - Percepatan Lateral: 0.30
@@ -126,7 +126,7 @@ Input:
 Output: 
 - Nilai Stabilitas: 72.5
 - Kategori: ✅ Aman
-\`\`\`
+```
 
 ## 🤝 Kontribusi
 
@@ -160,9 +160,8 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE unt
 
 ## 📞 Kontak & Support
 
-- **Email**: developer@email.com
-- **Issues**: [GitHub Issues](https://github.com/username/fuzzy-wheelchair-stability/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/username/fuzzy-wheelchair-stability/discussions)
+- **Issues**: [GitHub Issues](https://github.com/angelafy/fuzzy_disabilities/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/angelafy/fuzzy_disabilities/discussions)
 
 ---
 

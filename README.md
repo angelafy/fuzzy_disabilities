@@ -148,15 +148,11 @@ Kami menyambut kontribusi dari komunitas! Untuk berkontribusi:
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE untuk detail lengkap.
 
-## 👥 Tim Pengembang
-
-- **Nama Developer** - *Initial work* - [GitHub](https://github.com/username)
-
 ## 🙏 Acknowledgments
 
 - Terima kasih kepada komunitas scikit-fuzzy untuk library yang luar biasa
 - Inspirasi dari penelitian di bidang teknologi assistive
-- Dataset kursi roda dari [sumber dataset]
+- Dataset kursi roda dari [sumber dataset](https://data.4tu.nl/datasets/bc9a8588-5e50-4dff-aa77-5114ff7626f7/2)
 
 ## 📞 Kontak & Support
 
